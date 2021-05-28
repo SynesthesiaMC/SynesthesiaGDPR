@@ -1,0 +1,69 @@
+########################################################
+#            Synesthesia GDPR Configuration            #
+#                                                      #
+# By Rikitek4759                                       #
+#                                                      #
+# Made with love <3                                    #
+########################################################
+
+TimerDuration: 60
+
+
+########################################################
+#                  MySQL Configuration                 #
+########################################################
+Mysql:
+  Enabled: false
+  Host: '127.0.0.1'
+  Port: '3306'
+  TableName: 'gdpr'
+  User: 'user'
+  Password: 'password'
+  Database: 'Synesthesia'
+
+
+########################################################
+#                Messages Configuration                #
+########################################################
+prefix: '&dSynesthesia &f>'
+
+Messages:
+  Accepted: '%prefix% &7You accepted the &dTos'
+  Kick: '%prefix% &7You did not accept the &dTos'
+  Exit: '%prfix% &7You left the server'
+
+########################################################
+#               Inventory Configuration                #
+########################################################
+
+Inventory:
+  Size: 27
+  Title: '&dSynesthesia &fGDPR'
+  Items:
+    1:
+     Item: 'REDSTONE_BLOCK'
+     Slot: 10
+     Name: '&cDeny'
+     Data: 0
+     Lore:
+       - ' '
+       - '&7Click here to &cDeny'
+     Action: 1
+    2:
+     Item: 'BOOK'
+     Slot: 12
+     Name: '&dTOS'
+     Data: 0
+     Lore:
+       - ' '
+       - '&7Add your server &dTOS &7here'
+     Action: 0
+    3:
+     Item: 'EMERALD_BLOCK'
+     Slot: 14
+     Name: '&aAccept'
+     Data: 0
+     Lore:
+       - '&7Click here to &aAccept'
+     Action: 2
+  
