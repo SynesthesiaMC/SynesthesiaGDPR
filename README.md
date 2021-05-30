@@ -1,5 +1,6 @@
 # SynesthesiaGDPR
 This plugin can be used to let your players accept your GDPR rules on your server upon join.
+Everything can be saved on file or on a database.
 
 ## Installation
 1. Download the plugin
