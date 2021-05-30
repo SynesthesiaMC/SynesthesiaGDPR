@@ -1,9 +1,0 @@
-name: SynesthesiaGdpr
-version: 1.0
-author: Rikitek4759
-main: services.synesthesia.synesthesia_gdpr.Main
-api-version: 1.16
-commands:
-  gdpr:
-    description: Comando Principale
-    usage: /<command>
