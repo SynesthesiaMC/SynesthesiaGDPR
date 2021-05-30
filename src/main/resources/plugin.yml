@@ -1,4 +1,4 @@
-name: SynesthesiaGdpr
+name: SynesthesiaGDPR
 version: 1.0
 author: Rikitek4759
 main: services.synesthesia.synesthesia_gdpr.Main

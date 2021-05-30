@@ -25,7 +25,7 @@ Mysql:
 ########################################################
 #                Messages Configuration                #
 ########################################################
-prefix: '&dSynesthesia &f>'
+prefix: '&dSynesthesiaGDPR &f»'
 
 Messages:
   Accepted: '%prefix% &7You accepted the &dTos'
