@@ -1,5 +1,5 @@
 name: SynesthesiaGDPR
-version: 1.0
+version: 1.0.1
 author: Rikitek4759
 main: services.synesthesia.synesthesia_gdpr.Main
 api-version: 1.16

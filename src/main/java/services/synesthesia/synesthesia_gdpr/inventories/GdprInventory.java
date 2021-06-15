@@ -38,7 +38,6 @@ public class GdprInventory implements InventoryHolder {
 		this.createGui();
 	}
 
-	@SuppressWarnings("deprecation")
 	public void createGui() {
 
 		ItemStack item;

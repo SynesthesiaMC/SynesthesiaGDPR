@@ -72,7 +72,7 @@ public class Main extends JavaPlugin {
 		this.getLogger().info(" - Loaded InventoryEvents");
 
 		this.getLogger().info("");
-		this.getLogger().info("SynesthesiaGdpr v1.0 has successfully loaded!");
+		this.getLogger().info("SynesthesiaGdpr v1.0.1 has successfully loaded!");
 		final Date date2 = new Date();
 		final long endTime = date2.getTime();
 		this.getLogger().info("Plugin successfully loaded in " + (endTime - startTime) + "ms.");
@@ -93,7 +93,7 @@ public class Main extends JavaPlugin {
 		this.getLogger().info(" - Unloaded All Events");
 		this.getLogger().info(" - Unloaded All Managers");
 		this.getLogger().info("");
-		this.getLogger().info("SynesthesiaGdpr v1.0 plugin disabled!");
+		this.getLogger().info("SynesthesiaGdpr v1.0.1 plugin disabled!");
 		this.getLogger().info("------------[SYNESTHESIAGDPR]-------------");
 
 	}
